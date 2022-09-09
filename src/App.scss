@@ -1,0 +1,30 @@
+@import "./variables/colors/colors.scss";
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: $textDark;
+    font-size: 20px;
+    font-weight: 600;
+    outline: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+img {
+    display: block;
+}
