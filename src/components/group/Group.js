@@ -6,21 +6,17 @@ const Group = ({img}) => {
   return (
     <div className='group'>
 
-        <div className='container'>
-        
-            <img src={img} alt='Group' />
+        <img src={img} alt='Group' />
 
-            <div className='group__right'>
+        <div className='group__right'>
 
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra </p>
-                
-                <button className='btn'>Learn more</button>
-
-            </div>
-
-            <div className='date'>00/00/2000</div>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra </p>
+            
+            <button className='btn'>Learn more</button>
 
         </div>
+
+        <div className='date'>00/00/2000</div>
 
     </div>
   )

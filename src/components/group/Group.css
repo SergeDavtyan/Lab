@@ -1,4 +1,6 @@
-.group .container {
+.group {
+  width: 100%;
+  max-width: 1158px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8,7 +10,12 @@
   position: relative;
 }
 
-.group .container .date {
+.group img {
+  width: 100%;
+  max-width: 664px;
+}
+
+.group .date {
   position: absolute;
   top: 0;
   right: 0;

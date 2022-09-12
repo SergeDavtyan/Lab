@@ -1,0 +1,31 @@
+.person {
+  width: 290px;
+  position: relative;
+}
+
+.person img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.person p {
+  text-align: center;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.person__block {
+  position: relative;
+}
+
+.person__block div {
+  position: absolute;
+  width: 100%;
+  height: 58px;
+  line-height: 58px;
+  bottom: 0;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+  color: #F3F9F9;
+}
+/*# sourceMappingURL=Person.css.map */
