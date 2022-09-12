@@ -28,4 +28,14 @@ body {
 img {
   display: block;
 }
+
+.btn {
+  background: -webkit-gradient(linear, left top, left bottom, from(#F85E00), to(#F2A800));
+  background: linear-gradient(180deg, #F85E00 0%, #F2A800 100%);
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  font-size: 24px;
+  padding: 17px;
+}
 /*# sourceMappingURL=App.css.map */
