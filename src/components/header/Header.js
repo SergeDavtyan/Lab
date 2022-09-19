@@ -1,4 +1,5 @@
 import React from 'react';
+import { AiOutlineMenu } from 'react-icons/ai';
 import "./Header.css";
 
 import Logo from "../../assets/images/logo.png";
@@ -24,6 +25,10 @@ const Header = () => {
             <li className='menu__item'>News</li>
             <li className='menu__item'>Research</li>
           </ul>
+        </div>
+
+        <div className='header__burger'>
+          <AiOutlineMenu />
         </div>
 
       </div>

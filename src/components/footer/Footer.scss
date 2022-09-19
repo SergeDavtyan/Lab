@@ -1,0 +1,52 @@
+@import "../../variables/colors/colors.scss";
+
+.footer {
+    padding: 43px 0;
+    color: $textDark;
+
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        ul {
+            li {
+                font-size: 16px;
+                margin-bottom: 25px;
+                cursor: pointer;
+                ul {
+                    display: flex;
+                    justify-content: space-between;
+                    svg {
+                        cursor: pointer;
+                    }
+                }
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+            &:last-child {
+                li {
+                    &:last-child {
+                        cursor: default;
+                    }
+                }
+            }
+        }
+    }
+
+    &__logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    p {
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 25px;
+        svg {
+            font-size: 12px;
+        }
+    }
+
+}

@@ -5,6 +5,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-top: 18px;
 }
 
 .header__phone {
@@ -16,9 +17,13 @@
   text-align: right;
 }
 
-.header__middle .menu {
+.header__middle {
   width: 100%;
   max-width: 441px;
+}
+
+.header__middle .menu {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -29,6 +34,10 @@
 
 .header__middle .menu__item {
   color: #77706A;
+  cursor: pointer;
+}
+
+.header__burger svg {
   cursor: pointer;
 }
 /*# sourceMappingURL=Header.css.map */

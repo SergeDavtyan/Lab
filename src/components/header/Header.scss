@@ -4,6 +4,7 @@
     >.container {
         display: flex;
         justify-content: space-between;
+        margin-top: 18px;
     }
     &__phone {
         padding: 18px 0;
@@ -14,15 +15,22 @@
     }
 
     &__middle {
+        width: 100%;
+        max-width: 441px;
         .menu {
             width: 100%;
-            max-width: 441px;
             display: flex;
             justify-content: space-between;
             &__item {
                 color: #77706A;
                 cursor: pointer;
             }
+        }
+    }
+
+    &__burger {
+        svg {
+            cursor: pointer;
         }
     }
 }
