@@ -1,0 +1,41 @@
+@import "../../variables/colors/colors.scss";
+
+.home {
+
+    &__title {
+        border-bottom: 1px solid $textDark;
+        margin-bottom: 17px;
+        margin-top: 40px;
+    }
+    &__block {
+        h3 {
+            color: #F85700;
+            padding: 20px 0;
+        }
+        &:last-child {
+            margin-bottom: 55px;
+        }
+    }
+    .home-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 100%;
+        max-width: 1020px;
+        >div {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+        .btn {
+            width: 100%;
+            max-width: 422px;
+            margin-top: 70px;
+        }
+        p {
+            width: 100%;
+            text-align: start;
+            padding: 45px 0;
+        }
+    }
+}

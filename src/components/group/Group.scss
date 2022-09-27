@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    img {
+    &__img {
         width: 100%;
         max-width: 664px;
     }

@@ -10,7 +10,7 @@
   position: relative;
 }
 
-.group img {
+.group__img {
   width: 100%;
   max-width: 664px;
 }

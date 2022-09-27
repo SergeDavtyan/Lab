@@ -1,0 +1,106 @@
+.partners {
+  margin-bottom: 165px;
+}
+
+.partners__title {
+  color: #F85700;
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 25px;
+}
+
+.partners .partners-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.partners .partners-group__left {
+  width: 100%;
+  max-width: 425px;
+}
+
+.partners .partners-group__right {
+  width: 100%;
+  max-width: 687px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.partners .partners-group__title {
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.partners .partners-group__text {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.partners .partners-input__title {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.partners .partners-input form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 186px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 45px;
+}
+
+.partners .partners-input form .input {
+  width: 100%;
+  max-width: 420px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.partners .partners-input form .input input {
+  height: 48px;
+  font-size: 16px;
+  padding: 15px 20px 15px;
+  border: 1px solid #1E2122;
+}
+
+.partners .partners-input form .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 80px;
+}
+
+.partners .partners-input form .button .btn {
+  background: -webkit-gradient(linear, left bottom, left top, from(#ECBB71), to(#ECBB71)), #ECBB71;
+  background: linear-gradient(0deg, #ECBB71, #ECBB71), #ECBB71;
+  border-radius: 55px;
+  font-size: 18px;
+  padding: 20px 35px;
+}
+/*# sourceMappingURL=Partners.css.map */

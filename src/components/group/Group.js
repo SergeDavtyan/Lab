@@ -6,7 +6,9 @@ const Group = ({img}) => {
   return (
     <div className='group'>
 
-        <img src={img} alt='Group' />
+        <div className='group__img'>
+          <img src={img} alt='Group' />
+        </div>
 
         <div className='group__right'>
 
