@@ -25,7 +25,10 @@
 .footer__box ul li {
   font-size: 16px;
   margin-bottom: 25px;
-  cursor: pointer;
+}
+
+.footer__box ul li a {
+  font-size: 16px;
 }
 
 .footer__box ul li ul {

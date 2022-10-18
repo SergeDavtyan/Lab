@@ -32,9 +32,8 @@
           justify-content: space-between;
 }
 
-.header__middle .menu__item {
+.header__middle .menu__item a {
   color: #77706A;
-  cursor: pointer;
 }
 
 .header__burger svg {

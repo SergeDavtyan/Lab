@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { AiOutlineMenu } from 'react-icons/ai';
 import "./Header.css";
 
@@ -15,15 +16,14 @@ const Header = () => {
       <div className='container'>
 
         <div className='logo'>
-          <img src={Logo} alt='Logo' />
+          <Link to="/" ><img src={Logo} alt='Logo' /></Link>
         </div>
 
         <div className='header__middle'>
           <ul className='menu'>
-            <li className='menu__item'>Home</li>
-            <li className='menu__item'>About Us</li>
+            <li className='menu__item'><Link to="/" >Home</Link></li>
+            <li className='menu__item'><Link to="/aboutus" >About Us</Link></li>
             <li className='menu__item'>News</li>
-            <li className='menu__item'>Research</li>
           </ul>
         </div>
 

@@ -1,0 +1,48 @@
+.aboutUs {
+    h3 {
+        color: #F85700;
+        text-align: center;
+        margin: 25px 0;
+    }
+    .foundation {
+        display: flex;
+        justify-content: space-between;
+        img {
+            width: 100%;
+            max-width: 590px;
+        }
+
+        p {
+            width: 100%;
+            max-width: 545px;
+            font-size: 18px;
+            text-align: center;
+        }
+    }
+
+    .team {
+        display: flex;
+        margin-bottom: 25px;
+        img {
+            width: 100%;
+            max-width: 465px;
+        }
+        div {
+            width: 100%;
+            max-width: 600px;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            p {
+                text-align: center;
+                font-size: 18px;
+            }
+        }
+    }
+
+    &.container {
+        max-width: 1185px;
+    }
+}

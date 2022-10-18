@@ -22,8 +22,9 @@
             display: flex;
             justify-content: space-between;
             &__item {
-                color: #77706A;
-                cursor: pointer;
+                a {
+                    color: #77706A;
+                }
             }
         }
     }

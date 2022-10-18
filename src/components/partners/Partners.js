@@ -38,7 +38,7 @@ const Partners = () => {
                 <div className='input'>
 
                     <input type="text" placeholder='Text' />
-                    <input type="text" placeholder='Text' />
+                    <textarea />
 
                 </div>
                 <div className='button'>

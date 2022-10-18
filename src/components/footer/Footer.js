@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { AiOutlineLinkedin, AiOutlineInstagram, AiOutlineYoutube, AiOutlineCopyrightCircle } from "react-icons/ai";
 import { BsTelephone } from "react-icons/bs";
 import { FiFacebook, FiTwitter } from "react-icons/fi";
@@ -25,7 +26,7 @@ const Footer = () => {
 
             <ul>
                 <li>Donate</li>
-                <li>Partners</li>
+                <li><Link to="/partners">Partners</Link> </li>
             </ul>
 
             <ul>
@@ -45,7 +46,7 @@ const Footer = () => {
         </div>
 
         <div className='footer__logo'>
-            <img src={Logo} alt="Logo" />
+          <Link to="/" ><img src={Logo} alt='Logo' /></Link>
         </div>
 
         <p><AiOutlineCopyrightCircle/> 2022 CSIE.COM ALL RIGHTS RESERVED</p>

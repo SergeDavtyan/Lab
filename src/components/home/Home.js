@@ -1,11 +1,14 @@
 import React from 'react';
+
+import { Link } from 'react-router-dom';
+
 import Group from '../group/Group';
 import Person from '../person/Person';
 
 import IMG2 from "../../assets/images/img2.png";
 import IMG3 from "../../assets/images/img3.png";
 import IMG4 from "../../assets/images/img4.png";
-import Partners from '../partners/Partners';
+// import Partners from '../partners/Partners';
 
 import "./Home.css";
 
@@ -76,7 +79,7 @@ const Home = () => {
 
             <div className='container'>
           
-              <Group img={item.image} />
+              <Group img={item.image} title={item.title} />
 
             </div>
 
@@ -108,7 +111,9 @@ const Home = () => {
                   <Person img={IMG3} name="Name" />
                 </div>
       
-                <button className='btn'>Learn more</button>
+                {
+                  item.title === "Prospective Students" ? <Link to="/prosStudents" className='btn' >Learn more</Link> : <button className='btn'>Learn more</button>
+                }
       
               </div>
       
