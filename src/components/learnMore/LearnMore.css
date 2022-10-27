@@ -1,0 +1,59 @@
+.learnMore__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 75px;
+  margin-bottom: 40px;
+}
+
+.learnMore__header h3 {
+  color: #000;
+}
+
+.learnMore__header p {
+  color: #302F2E;
+}
+
+.learnMore__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.learnMore__block img {
+  width: 100%;
+  max-width: 425px;
+}
+
+.learnMore__block p {
+  text-align: center;
+  font-size: 18px;
+  margin-left: 15px;
+}
+
+.learnMore__block:nth-of-type(odd) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.learnMore__block:nth-of-type(odd) p {
+  margin-left: 0;
+  margin-right: 15px;
+}
+
+.learnMore__block:last-child {
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=LearnMore.css.map */

@@ -7,6 +7,10 @@ import Partners from './components/partners/Partners';
 import Home from './components/home/Home';
 import AboutUs from './components/aboutus/AboutUs';
 import ArialRobotics from './components/arialRobotics/ArialRobotics';
+import News from './components/news/News';
+import LearnMore from './components/learnMore/LearnMore';
+
+import PARTNER from "./assets/images/partner.png";
 
 function App() {
   return (
@@ -18,6 +22,8 @@ function App() {
         <Route path='/partners' element={<Partners />} />
         <Route path='/aboutus' element={<AboutUs/>} />
         <Route path='/arialrobotics' element={ <ArialRobotics />} />
+        <Route path='/news' element={ <News /> } />
+        <Route path='/learnmore' element={ <LearnMore image={PARTNER} /> } />
       </Routes>
       <Footer />
     </div>

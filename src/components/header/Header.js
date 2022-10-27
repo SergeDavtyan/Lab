@@ -1,11 +1,14 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
-import { AiOutlineMenu } from 'react-icons/ai';
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import "./Header.css";
 
 import Logo from "../../assets/images/logo.png";
 
 const Header = () => {
+
+  const [burgerMenu, setBurgerMenu] = useState(false);
+
   return (
     <div className='header'>
 
@@ -23,13 +26,23 @@ const Header = () => {
           <ul className='menu'>
             <li className='menu__item'><Link to="/" >Home</Link></li>
             <li className='menu__item'><Link to="/aboutus" >About Us</Link></li>
-            <li className='menu__item'>News</li>
+            <li className='menu__item'><Link to="/news" >News</Link></li>
           </ul>
         </div>
 
-        <div className='header__burger'>
-          <AiOutlineMenu />
+        <div className='header__burger' onClick={ () => setBurgerMenu(!burgerMenu) }>
+          { burgerMenu ? <AiOutlineClose /> : <AiOutlineMenu /> }
         </div>
+
+        {
+          burgerMenu ? <ul className='burger_menu'>
+            <li>Our Stakeholder/Audience</li>
+            <li>Arial Robotics Laboratory</li>
+            <li>Research & Teaching</li>
+            <li>Our Team</li>
+            <li>Prospective Students</li>
+          </ul> : null
+        }
 
       </div>
 

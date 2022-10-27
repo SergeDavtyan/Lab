@@ -1,0 +1,39 @@
+.learnMore {
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 75px;
+        margin-bottom: 40px;
+        h3 {
+            color: #000;
+        }
+        p {
+            color: #302F2E;
+        }
+    }
+    &__block {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 30px;
+        img {
+            width: 100%;
+            max-width: 425px;
+        }
+        p {
+            text-align: center;
+            font-size: 18px;
+            margin-left: 15px;
+        }
+        &:nth-of-type(odd) {
+            flex-direction: row-reverse;
+            p {
+                margin-left: 0;
+                margin-right: 15px;
+            }
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

@@ -18,19 +18,27 @@ const Home = () => {
   const group = [
     {
       title: "Research & Teaching",
-      image: IMG2 
+      image: IMG2,
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra",
+      link: "research&Teaching"
     },
     {
       title: "Partners",
-      image: IMG2 
+      image: IMG2,
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra",
+      link: "partners"
     },
     {
       title: "News & Learning",
-      image: IMG2 
+      image: IMG2,
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra",
+      link: "news" 
     },
     {
       title: "Arial Robotics Laboratory",
-      image: IMG2 
+      image: IMG2,
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra",
+      link: "arialrobotics"
     }
   ]
 
@@ -79,7 +87,7 @@ const Home = () => {
 
             <div className='container'>
           
-              <Group img={item.image} title={item.title} />
+              <Group img={item.image} link={item.link} text={item.description} />
 
             </div>
 
